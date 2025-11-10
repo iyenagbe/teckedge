@@ -4,6 +4,7 @@ import HeroFile from './Components/HeroFile';
 import Trusted from './Components/Trusted';
 import Services from './Components/Services';
 import OurWork from './Components/OurWork';
+import Teams from './Components/Teams';
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -17,6 +18,7 @@ const App = () => {
       <Trusted />
       <Services />
       <OurWork />
+      <Teams />
     </div>
     
   )
