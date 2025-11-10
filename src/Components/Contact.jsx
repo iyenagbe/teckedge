@@ -30,10 +30,11 @@ const Contact = () => {
 
             <div className='sm:col-span-2'>
                 <p className='mb-2 text-sm font-medium'>Message</p>
-                < textarea rows={10} placeholder='Enter your message' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-600'/>
+                < textarea rows={10} placeholder='Enter your message' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600
+'/>
             </div>
 
-            <button type='submit' className='w-full flex gap-2 bg-primary text-white text-sm px-7 py-2 mb-6 rounded-full cursor-pointer hover:scale-103'>
+            <button type='submit' className='w-30 flex gap-2 bg-primary text-white text-sm px-7 py-2 mb-6 rounded-full cursor-pointer hover:scale-103'>
                 Submit <img src={assets.arrow_icon} className='w-2' alt="" />
             </button>
 
