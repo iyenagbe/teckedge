@@ -5,6 +5,7 @@ import Trusted from './Components/Trusted';
 import Services from './Components/Services';
 import OurWork from './Components/OurWork';
 import Teams from './Components/Teams';
+import Contact from './Components/Contact';
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -19,6 +20,7 @@ const App = () => {
       <Services />
       <OurWork />
       <Teams />
+      <Contact />
     </div>
     
   )
