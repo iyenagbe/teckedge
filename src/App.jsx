@@ -6,6 +6,7 @@ import Services from './Components/Services';
 import OurWork from './Components/OurWork';
 import Teams from './Components/Teams';
 import Contact from './Components/Contact';
+import {Toaster} from 'react-hot-toast'
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -14,6 +15,7 @@ const App = () => {
 
   return (
     <div className='dark:bg-black relative'>
+      <Toaster />
       <Navber theme={theme} setTheme={setTheme}/>
       <HeroFile />
       <Trusted />
@@ -21,6 +23,7 @@ const App = () => {
       <OurWork />
       <Teams />
       <Contact />
+      
     </div>
     
   )
