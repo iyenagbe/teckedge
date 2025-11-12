@@ -31,6 +31,7 @@ import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
 import ray_ceo from './ray_ceo.jpg'
+import teck_logo_dark from './teck_logo_dark.jpg'
 
 
 
@@ -42,6 +43,7 @@ export const company_logos = [
   airbnb_logo,
   google_logo,
   teck_logo,
+  teck_logo_dark,
 ]
 
 const assets = {
@@ -72,6 +74,7 @@ const assets = {
   moon_icon,
   teck_logo,
   ray_ceo,
+  teck_logo_dark,
 }
 
 export default assets

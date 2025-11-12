@@ -7,6 +7,7 @@ import OurWork from './Components/OurWork';
 import Teams from './Components/Teams';
 import Contact from './Components/Contact';
 import {Toaster} from 'react-hot-toast'
+import Footer from './Components/Footer';
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -23,6 +24,7 @@ const App = () => {
       <OurWork />
       <Teams />
       <Contact />
+      <Footer theme={theme} />
       
     </div>
     
